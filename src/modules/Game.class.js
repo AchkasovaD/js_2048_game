@@ -247,6 +247,7 @@ class Game {
       this.status = 'playing';
 
       this.addRandomTile();
+      this.addRandomTile();
     }
   }
 
@@ -262,6 +263,7 @@ class Game {
     ];
     this.score = 0;
     this.status = 'playing';
+    this.addRandomTile();
     this.addRandomTile();
   }
 
